@@ -591,7 +591,7 @@ if($('#partners-slider').length){
  if($('#license-slider').length){
     let splide55 = new Splide('#license-slider', {
      type   : 'loop',
-     perPage: 4,
+     perPage: 2,
      easing: "cubic-bezier(0.25, 1, 0.5, 1)",
      speed: 1000,
      gap: "20px",

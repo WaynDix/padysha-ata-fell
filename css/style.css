@@ -1,22 +1,22 @@
 @font-face {
     font-family: "SangBleu Empire Trial";
-    src: local("SangBleu Empire Trial"), local("SangBleu Empire Trial"), url("../fonts/SangBleuEmpireTrial-Regular.woff2") format("truetype");
+    src: local("SangBleu Empire Trial"), local("SangBleu Empire Trial"), url("/fonts/SangBleuEmpireTrial-Regular.woff2") format("truetype");
     font-display: swap;
 }
 @font-face {
     font-family: "Haigrast";
-    src: local("Haigrast"), local("Haigrast"), url("../fonts/Haigrast.woff2") format("truetype");
+    src: local("Haigrast"), local("Haigrast"), url("/fonts/Haigrast.woff2") format("truetype");
     font-display: swap;
 }
 @font-face {
     font-family: "Forum";
-    src: local("Forum"), local("Forum"), url("../fonts/Forum-Regular.woff2") format("truetype");
+    src: local("Forum"), local("Forum"), url("/fonts/Forum-Regular.woff2") format("truetype");
     font-display: swap;
 }
 
 @font-face {
     font-family: "Ubuntu";
-    src: local("Ubuntu"), local("Forum"), url("../fonts/Ubuntu-Light.ttf") format("truetype");
+    src: local("Ubuntu"), local("Forum"), url("/fonts/Ubuntu-Light.ttf") format("truetype");
     font-display: swap;
 }
 
@@ -114,7 +114,7 @@ section{
 }
 .nav-hover .hover{
     width: 0;
-    color: #D0A666;
+    color: rgb(100, 0, 0);
 }
 .nav-hover span{
     position: absolute;
@@ -137,7 +137,7 @@ section{
 
 
 .preloader{
-    background: #370101;
+    background: rgb(56, 0, 0);
     z-index: 1031;    
     opacity: 1;
     /* max-width: 1920px; */
@@ -150,7 +150,7 @@ section{
 .preloader .hover{
     position: absolute;
     width: 0;
-    color: #D0A666;
+    color: goldenrod;
 }
 .preloader span{
     top: 0;
@@ -200,7 +200,7 @@ section{
 }
 .callback-head{
     height: 38px;
-    width: 178px;
+    width: 255px;
     font-family: "Forum";
     font-style: normal;
     font-weight: normal;
@@ -622,7 +622,7 @@ section.third{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../img/0081.png");
+    background-image: url("/img/0081.png");
 }
 .news-card p{
     font-family: Forum;
@@ -639,7 +639,7 @@ section.third{
     letter-spacing: 0.005em;
 }
 .callback{
-    background: #F2EFEA;
+    background: #fff;
 }
 .callback-btn{
     max-width: 130px;
@@ -648,7 +648,7 @@ section.third{
     aspect-ratio: 1 / 1;
     width: 10vw;
     border-radius: 50%;
-    background: #D0A666;
+    background: goldenrod;
 }
 
 .callback-btn .circle, .splide__arrow .circle{
@@ -661,7 +661,7 @@ section.third{
     z-index: 1;
     width: 0;
     height: 0;
-    background: #222;
+    background: rgb(255, 255, 255);
     transition: all 0.5s ease;
 }
 .callback-btn svg{
@@ -1417,7 +1417,7 @@ body.is-ready .write-text{
     width: auto!important;
     height: auto!important;
     background: none!important;
-    content: url('../img/left-arr.svg')!important;
+    content: url('/img/left-arr.svg')!important;
     top: 18px!important;
 }
 .noUi-handle:after{
@@ -1505,7 +1505,7 @@ p.write-text.writeBackText  {
 
 .fontBorder{
     -webkit-text-stroke: 0.5px white;
-    color: #132033;
+    color: #380000;
 }
 .seconSectionText{
     font-family: 'Ubuntu';
@@ -1528,7 +1528,7 @@ p.write-text.writeBackText  {
 
 .fontBorder2{
     -webkit-text-stroke: 0.5px white;
-    color: #132033;
+    color: #380000;
     position: absolute;
     top: 8px;
     left: 36px;
@@ -1587,7 +1587,7 @@ p.write-text.writeBackText  {
     line-height: 120%;
     text-transform: capitalize;
     color: #FFFFFF;
-    background: #132033;
+    background: #380000;
     position: absolute;
     top: 119px;
     left: 20px;
@@ -1695,7 +1695,7 @@ p.write-text.writeBackText  {
     font-weight: 300;
     font-size: 15px;
     line-height: 160%;
-    color: #132033;
+    color: #380000;
     opacity: 0.9;
     display: block;
 }
@@ -1795,7 +1795,7 @@ p.write-text.writeBackText  {
     font-size: clamp(21px, 10vw, 70px);
     line-height: 120%;
     text-transform: uppercase;
-    color: #3e0000;
+    color: #2E2E2E;
     padding:120px 0 60px 0;
 }
 
@@ -1830,7 +1830,7 @@ p.write-text.writeBackText  {
     border: 1px solid rgba(208, 166, 102, 0.4);
     height: 530px;
     padding:24px;
-    background: #132033;
+    background: #380000;
     overflow: hidden;
 }
 
@@ -2339,7 +2339,7 @@ color: #FFFFFF;
 }
 .project_section_four{
     padding:91px 0 91px 0;
-    /* background-color: #132033; */
+    /* background-color: #380000; */
 }
 
 .project_section_five{
@@ -2436,7 +2436,7 @@ color: #FFFFFF;
 }
 
 .project_section_nine{
-    background: #132033;
+    background: #380000;
     /* height: 783px; */
     padding-bottom: 40px;
 }
@@ -2556,7 +2556,7 @@ color: #FFFFFF;
 }
 
 .about_section_four{
-    background-color: #132033;
+    background-color: #380000;
     padding:120px 0 120px 0;
 }
 
@@ -2593,7 +2593,7 @@ color: #FFFFFF;
 
 .fontBorder3{
     -webkit-text-stroke: 0.2px white;
-    color: #132033;
+    color: #380000;
     position: absolute;
     top: -7px;
     left: 13px;
@@ -2659,8 +2659,8 @@ color: #FFFFFF;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 344px;
-    max-height: 344px;
+    height: 500px;
+    max-height: 500px;
     width:100%;
 }
 
@@ -2792,7 +2792,7 @@ color: #FFFFFF;
     width: 41px;
     height: 41px;
     border-radius: 50%;
-    background: #132033;
+    background: #380000;
     transition: .6s;
     position: relative;
     display: flex;
